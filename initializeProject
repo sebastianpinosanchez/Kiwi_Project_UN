@@ -1,0 +1,6 @@
+mkdir CSV
+mkdir images
+mkdir frozen_model
+mkdir output
+mkdir TFRecords
+mkdir train

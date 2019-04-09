@@ -1,0 +1,10 @@
+CSV/
+images/
+model/
+frozen_model/
+object_detection/
+output/
+slim/
+TFRecords/
+train/
+
