@@ -1,6 +1,34 @@
+#Creating directories
 mkdir CSV
 mkdir images
 mkdir frozen_model
 mkdir output
 mkdir TFRecords
 mkdir train
+
+#Download the model
+mkdir model
+cd model
+wget http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet101_coco_2018_01_28.tar.gz
+
+# Organizing the model directory
+tar -xvf faster_rcnn_resnet101_coco_2018_01_28.tar.gz
+cd faster_rcnn_resnet101_coco_2018_01_28
+cp model.ckpt* ../
+cp pipeline.config ../faster_rcnn_resnet101_coco.config
+
+cd ..
+rm -rf faster_rcnn_resnet101_coco_2018_01_28
+rm -rf faster_rcnn_resnet101_coco_2018_01_28.tar.gz
+
+#Coming to the root directory
+cd ..
+mkdir trash
+cd trash
+wget https://github.com/puigalex/deteccion_objetos/archive/master.zip
+unzip master.zip
+cd deteccion_objetos-master/
+cp -r slim/ ../../
+cp -r object_detection/ ../../
+cd ../../
+rm -rf trash/
