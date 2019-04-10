@@ -1,7 +1,7 @@
 CSV/
 images/
 model/
-frozen_model/
+modelo_congelado/
 object_detection/
 output/
 slim/

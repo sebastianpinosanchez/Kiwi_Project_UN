@@ -1,7 +1,7 @@
 #Creating directories
 mkdir CSV
 mkdir images
-mkdir frozen_model
+mkdir modelo_congelado
 mkdir output
 mkdir TFRecords
 mkdir train
@@ -25,6 +25,8 @@ rm -rf faster_rcnn_resnet101_coco_2018_01_28.tar.gz
 cd ..
 mkdir trash
 cd trash
+
+#Object detection tensorflow scripts
 wget https://github.com/puigalex/deteccion_objetos/archive/master.zip
 unzip master.zip
 cd deteccion_objetos-master/
