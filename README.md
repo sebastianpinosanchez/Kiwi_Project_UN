@@ -79,6 +79,8 @@ python object_detection/export_inference_graph.py --input_type image_tensor --pi
 
 - Juan Pablo Villegas Gomez. [@MrPaul91](https://github.com/MrPaul91)
 - Sebastian Pino Sanchez. [@sebastianpinosanchez](https://github.com/sebastianpinosanchez)
+- Santiago Restrepo Osorio. [@srestrepoo](https://github.com/srestrepoo)
+- Giovani Hernán Cardona Sánchez
 
 
 
